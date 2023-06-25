@@ -7,7 +7,7 @@ package com.seeta.sdk;
 public class FaceRecognizer {
 
     static {
-        System.loadLibrary("SeetaFaceRecognizer610_java");
+        System.loadLibrary("SeetaFaceRecognizer600_java");
     }
 
 

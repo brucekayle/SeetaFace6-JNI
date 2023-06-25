@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
-
         File cacheDir = getInternalCacheDirectory(this, null);
         String modelPath = cacheDir.getAbsolutePath();
         Log.d("cacheDir", "" + modelPath);
