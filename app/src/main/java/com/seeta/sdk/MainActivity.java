@@ -67,6 +67,13 @@ public class MainActivity extends AppCompatActivity {
                     new String[]{rootPath + pdModel},
                     SeetaDevice.SEETA_DEVICE_AUTO
             ));
+
+            QualityOfPose qualityOfPose = new QualityOfPose();
+
+            QualityOfBrightness qualityOfBirghtness = new QualityOfBrightness();
+            QualityOfClarity qualityOfClarity = new QualityOfClarity();
+            QualityOfIntegrity qualityOfIntegrity = new QualityOfIntegrity();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
